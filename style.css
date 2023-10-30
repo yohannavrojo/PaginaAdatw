@@ -76,9 +76,7 @@ header .nav .nav-menu .nav-menu-item .nav-link:hover {
 .info1{
     
   text-align: center;
-  /* min-height: calc(75vh - 142px); */
   padding: 20px;
-  /* padding-left: 21px; */
 
 }
 
@@ -88,7 +86,6 @@ header .nav .nav-menu .nav-menu-item .nav-link:hover {
     justify-content: space-around;
 
 }
-
 
 
 @media(max-width: 580px){
@@ -176,7 +173,7 @@ p {
 .p-cita-rosa{
     color: #ffffff;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 2.8em;
 }
 
 .cita-title {
@@ -212,7 +209,7 @@ p {
   justify-content: center;
 }
 .proyect .proyect-indiv1 {
-  /* width: calc(100% / 3 - (0.75em * 2)); */
+ 
   margin: 0.75em;
   border-radius: 8px;
   padding: 20px;
@@ -222,10 +219,10 @@ p {
  background-blend-mode:darken ;
   background-color:#0000004d ; 
   height: 13em;
-  /* width: 31em; */
+ 
 }
 .proyect .proyect-indiv2 {
-    /* width: calc(100% / 3 - (0.75em * 2)); */
+   
     margin: 0.75em;
     border-radius: 8px;
     padding: 20px;
@@ -267,21 +264,7 @@ p {
   color: #ffffff;
   padding-top: 3em;
 }
-/* @media (max-width: 580px) {
- 
-  
-   .proyect-indiv1{
-    width: 89%;
-  }
- 
-   .proyect-indiv2{
-    width: 89%;
-  }
- 
-   .proyect-indiv3 {
-    width: 89%;
-  }
-} */
+
 
 @media (max-width: 610px) {
   .proyect {
@@ -291,9 +274,7 @@ p {
   .proyect-casillas {
     flex-direction: column;
   }
-  .fondo {
-    padding-left: 6em;
-  }
+  
 }
 
 .rosa{
